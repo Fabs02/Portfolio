@@ -113,11 +113,14 @@ section div button:hover {
 
 .projetos {
     background-color: #170872;
+    flex-direction: column;
+    align-items: center;
 }
 
 .projetos h2 {
     color: white;
     font-size: 75px;
+    text-align: center;
 }
 
 .card {
@@ -141,4 +144,26 @@ section div button:hover {
 .card p {
     color: #e2b9c6;
     font-size: 12px; 
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card a {
+    background-color: #f9004d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card a:hover {
+    background-color: transparent;
+    border: 1px solid #f9004d;
+}
+
+.card-projetos {
+    background-color: #170872;
+    display: flex;
+    justify-content:space-around;
 }
